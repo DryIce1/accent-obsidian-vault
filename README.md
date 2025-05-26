@@ -59,9 +59,9 @@ summary:
 >> - practical datascopes
 >>     - [[Obsidian hotkeys - datascope]]
 >>     - [[Obsidian command IDs - datacore datascope]]
->>     - [[Notes created in the past 2 days]]
->>     - [[Notes modified in the past 2 days]]
->>     - [[Most linked notes]]
+>>     - [[Notes created in the past 2 days - datascope]]
+>>     - [[Notes modified in the past 2 days - datascope]]
+>>     - [[Most linked notes - datascope]]
 >>     - [[Orphaned notes - datascope]]
 >>     - [[Templates database - datascope]]
 >>     - [[Uncreated outlinks (datascope)]]
