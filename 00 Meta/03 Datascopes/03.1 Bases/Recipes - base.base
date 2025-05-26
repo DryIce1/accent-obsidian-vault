@@ -1,0 +1,12 @@
+filters:
+  and:
+    - property.type == "recipe"
+formulas:
+  Cooked: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - cuisine
+      - Cooked
