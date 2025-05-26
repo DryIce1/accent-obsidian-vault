@@ -449,16 +449,13 @@ img
     display: inline;
   }
 
-  /* “Fit” or “Max Width” for callout dimensions */
-  .callout[data-callout-metadata="fit-content"] {
-    max-width: fit-content;
-    padding: 0.5em;
-  }
-  .callout[data-callout-metadata="mxw"] {
+  /* “Fit-content” or “Max Width” for callout dimensions */
+  .callout[data-callout-metadata=fit-content] {
     max-width: fit-content;
     min-width: fit-content;
+    padding: 0.5em;
   }
-  .callout[data-callout="mxw"].is-collapsed {
+  .callout[data-callout=fit-content].is-collapsed {
     max-width: fit-content;
     min-width: fit-content;
   }
@@ -498,6 +495,24 @@ img
     display: none;
   }
 
+  /* Limited frame size callout */
+    /* Enable scrolling if content exceeds max-height */
+  .callout:is([data-callout=scrollable]) {
+    min-height: fit-content;
+    max-height: 25em;
+        overflow-y: auto; 
+        overflow-x: auto; 
+  }
+  .callout[data-callout=scrollable].is-collapsed {
+    min-height: inherit !important;
+    max-height: inherit !important;
+  }
+
+  .callout[data-callout=scrollable]:not(.is-collapsed) {
+    width: auto;
+  }
+  
+
 /* 4) “Button-Callout” Class */
   .button-callout .callout-icon {
     display: none;
@@ -518,7 +533,7 @@ img
   }
 
 /* 5) Other-Callout-Type Definitions
-   (data-callout="answer", "photo", "medicine", etc.) */
+   (data-callout="answer", "photo", etc.) */
 
   /* Hidden callout */
     .callout[data-callout="hidden"] {
@@ -545,6 +560,7 @@ img
       --callout-icon: camera;
       --callout-color: var(--green);
     }
+
 
   /* “link” callout */
     .callout[data-callout="link"] {
@@ -613,6 +629,13 @@ img
       border-style: none;
       padding: none;
       background-color: none;
+    }
+
+    /* "recipe" callout */
+    .callout[data-callout="recipe"] {
+      --callout-icon: lucide-cooking-pot;      ;
+      --callout-color: var(--red);
+      background-color: rgba(var(--callout-color), 0.2);
     }
 
   /* “dx” callout */
@@ -1080,7 +1103,7 @@ img
       resize: vertical;
     }
 
-    .log .callout.callout:is([data-callout=reflection]) {
+    .callout.callout:is([data-callout=reflection]) {
       min-height: 25em;
       max-height: 25em;
       /* Enable scrolling if content exceeds max-height */
@@ -1092,6 +1115,7 @@ img
       min-height: inherit !important;
       max-height: inherit !important;
     }
+    
 
     .mb-input-wrapper {
       display: inline;

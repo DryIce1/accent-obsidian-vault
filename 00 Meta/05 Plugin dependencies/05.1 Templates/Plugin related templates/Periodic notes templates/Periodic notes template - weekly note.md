@@ -1,17 +1,17 @@
 <%"---"%>
 last-week: 
-  - "[[<%tp.date.now("YYYY-[W]WW", -7, tp.file.title, "YYYY-[W]WW")%>]]"
+  - "[[<%tp.date.now("gggg-[W]WW", -7, tp.file.title, "gggg-[W]WW")%>]]"
 month: 
-  - "[[<%tp.date.now("YYYY-MM", +3, tp.file.title, "YYYY-[W]WW")%>]]"
+  - "[[<%tp.date.now("gggg-MM", +3, tp.file.title, "gggg-[W]WW")%>]]"
 days: 
-  - "[[<% tp.date.now("YYYY-MM-DD", +0, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +1, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +2, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +3, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +4, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +5, tp.file.title, "YYYY-[W]WW") %>]]"
-  - "[[<% tp.date.now("YYYY-MM-DD", +6, tp.file.title, "YYYY-[W]WW") %>]]"
-date-created: <% tp.date.now("YYYY-MM-DD", +0, tp.file.title, "YYYY-[W]WW") %>
+  - "[[<% tp.date.now("gggg-MM-DD", +0, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +1, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +2, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +3, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +4, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +5, tp.file.title, "gggg-[W]WW") %>]]"
+  - "[[<% tp.date.now("gggg-MM-DD", +6, tp.file.title, "gggg-[W]WW") %>]]"
+date-created: <% tp.date.now("gggg-MM-DD", +0, tp.file.title, "gggg-[W]WW") %>
 aliases: 
 tags: log/week
 type: log/week

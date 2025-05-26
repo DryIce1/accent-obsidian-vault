@@ -1,15 +1,16 @@
 ---
 up: 
 related: 
-aliases:
-icon:
-banner: https://i.imgur.com/py4c5KP.png
+banner-y: 
+aliases: 
+icon: 
+banner: https://i.imgur.com/uCVHe.jpeg
 cssclasses:
   - button-callout
 date-created: 2023-01-01
 publish: true
-tags:
-banner-y: 50
+tags: 
+banner-x:
 ---
 
 ```meta-bind-embed

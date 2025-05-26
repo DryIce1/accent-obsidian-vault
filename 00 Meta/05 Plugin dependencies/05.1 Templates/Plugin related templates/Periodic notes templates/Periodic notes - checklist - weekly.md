@@ -2,10 +2,15 @@
 # Checklist 
 ## Clean up 
 - **Computer based**
-- [ ] Email Inbox Organized & Archived
-- [ ] Desktop & Download Folders organised 
-- [ ] Clean-up any screenshots or other clutter in routine folders
-- [ ] Review finances 
+    - [ ] Back up Obsidian vault : ![[My systems#^commandLineBackUp]]
+    - [ ] Finances
+    - [ ] Email Inbox Organized & Archived
+    - [ ] Desktop & Download Folders organised 
+    - [ ] Clean-up any screenshots or other clutter in routine folders
+    - [ ] Review finances 
+
+
+
 - **Paper Processing**
     - [ ]  Process Physical Inbox
     - [ ]  Pay any Paper Bills

@@ -18,6 +18,7 @@ deadline:
 priority:
 ---
 # Ideas and improvements
+- [ ] update daily note photo capture : if it detects a google share link, handle appropriately, else if it detects another URL, paste it directly (2025-02-21)
 - [ ] Update properties so that they are now lists
     - [ ] example : type, status
 - [ ] Create an improved delete paragraph template. triggering the template should delete the paragraph, and place the cursor at the end of the line preceding. Current behaviour of delete paragraph command is not convenient : it places the cursor at the same spot, which is often in the middle of the line and in the middle of a word, and it has never been in the right spot.

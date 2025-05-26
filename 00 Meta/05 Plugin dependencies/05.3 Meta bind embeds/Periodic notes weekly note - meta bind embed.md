@@ -11,7 +11,7 @@ tags:
 [[Shortcuts widget - meta bind]]
 ```
 
-> [!link|no icon]- `= link(dateformat(date(this.days[3]) - dur(1 week), "yyyy-'W'WW"), "◀7")` `BUTTON[periodic-notes-date-switcher]` `= split(this.file.name, "-")[1] + " : " + dateformat(date(this.days[0]), "DDDD")` to `= dateformat(date(this.days[6]), "DDDD")` `= link(dateformat(date(this.days[3]) + dur(1 week), "yyyy-'W'WW"), "▶️7")`
+> [!link|no icon]- `= link(dateformat(date(this.days[3]) - dur(1 week), "yyyy-'W'WW"), "◀7")` `BUTTON[periodic-notes-date-switcher]` `=link(this.month, "📅")` `= split(this.file.name, "-")[1] + " : " + dateformat(date(this.days[0]), "DDDD")` to `= dateformat(date(this.days[6]), "DDDD")` `= link(dateformat(date(this.days[3]) + dur(1 week), "yyyy-'W'WW"), "▶️7")`
 >
 >> [!photo]- snapshot
 >> 
@@ -31,7 +31,7 @@ tags:
 >> 
 >>> [!image-description] `=choice(this.banner, "![photo|300](" + this.banner + ")" + choice(this.banner-description, this.banner-description, ""), "**paste image URL into banner button below**")`
 >
->> [!reflection]- ### sleep
+>> [!scrollable]- ### sleep
 >> 
 >> - insert sleep duration : `INPUT[number():sleep-duration]`
 >>
@@ -91,7 +91,7 @@ tags:
 >> LIMIT 10
 >> ```
 >
->> [!reflection]- ### gratitude
+>> [!scrollable]- ### gratitude
 >> 
 >>`INPUT[textArea(placeholder('gratitude : what are 3 to 10 things that I am grateful for? what is something that I have never noticed in my immediate environment?')):gratitude]`
 >> 
@@ -106,7 +106,7 @@ tags:
 >> LIMIT 10
 >> ```
 >
->> [!reflection]- ### highlights
+>> [!scrollable]- ### highlights
 >> 
 >> ```dataview
 >> TABLE WITHOUT ID
@@ -121,7 +121,7 @@ tags:
 >>
 >>`INPUT[textArea(placeholder('highlights : key moments? what excited me? how did I move things forward?')):Highlights]`
 >
->> [!reflection]- ### lessons-learned
+>> [!scrollable]- ### lessons-learned
 >> 
 >> `INPUT[textArea(placeholder('lessons learned : insights, mistakes, failures and a functional interpretation')):lessons-learned]`
 >> 
@@ -136,7 +136,7 @@ tags:
 >> LIMIT 10
 >> ```
 >
->> [!reflection]- ### next-plans
+>> [!scrollable]- ### next-plans
 >> 
 >> `INPUT[textArea(placeholder('next-plans : plan the next period, set goals, and any tasks to do')):next-plans]`
 >> 

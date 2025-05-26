@@ -25,6 +25,8 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "up": "multitext",
-    "banner-x": "number"
+    "banner-x": "number",
+    "awake": "datetime",
+    "sleep": "datetime"
   }
 }

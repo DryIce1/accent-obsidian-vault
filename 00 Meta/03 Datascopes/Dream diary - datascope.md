@@ -13,11 +13,12 @@ description: a dream log where the daily note contains `dream` or `dreams` metad
 ```meta-bind-embed
 [[Shortcuts widget - meta bind]]
 ```
+
 ```dataview
 TABLE 
     WITHOUT ID 
     file.link as Date,
-    default(dream, dreams)
+    default(dream, dreams) AS "dreams"
 FROM
     #log 
 WHERE

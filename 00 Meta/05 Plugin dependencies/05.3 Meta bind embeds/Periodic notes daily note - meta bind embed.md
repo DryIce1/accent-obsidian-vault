@@ -11,25 +11,25 @@ tags:
 [[Shortcuts widget - meta bind]]
 ```
 
-> [!link|no icon]+ `=link(dateformat(date(this.file.day) - dur(1day), "yyyy-MM-dd"), "◀🌅")` `BUTTON[periodic-notes-date-switcher]` `=this.file.aliases` `=link(dateformat(date(this.file.day) + dur(1day), "yyyy-MM-dd"), "🌅▶")`
+> [!link|no icon]+ `=link(dateformat(date(this.file.day) - dur(1day), "yyyy-MM-dd"), "◀🌅")` `BUTTON[periodic-notes-date-switcher]` `=link(this.week, "7️⃣")` `=this.file.aliases` `=link(dateformat(date(this.file.day) + dur(1day), "yyyy-MM-dd"), "🌅▶")`
 > 
 >> [!photo]- snapshot
 >> 
->> - `=link(this.yesterday, "yesterday")`
->>     - sleep-comments : `=default(this.yesterday.sleep-comments, "*set yesterday's next-plans*")`
->>     - highlights : `=default(this.yesterday.highlights, "*set yesterday's highlights*")`
->>     - lessons-learned : `=default(this.yesterday.lessons-learned, "*set yesterday's lessons learned*")`
->>     - next-plans : `=default(this.yesterday.next-plans, "*set yesterday's next-plans*")`
->> - last week `=default(link(this.week.last-week), "Last week")` 
->>     - sleep-comments : `=default(this.week.last-week.sleep-comments, "*set last week's sleep-comments*")`
->>     - highlights : `=default(this.week.last-week.highlights, "*set last week's hightlights*")`
->>     - lessons-learned : `=default(this.week.last-week.lessons-learned, "*set last week's lessons-learned*")`
->>     - next-plans : `=default(this.week.last-week.next-plans, "*set last week's next-plans*")`
+>> - yesterday `=default(this.yesterday, "")`
+>>     - sleep-comments : `=default(this.yesterday.sleep-comments, "**set yesterday's next-plans**")`
+>>     - highlights : `=default(this.yesterday.highlights, "**set yesterday's highlights**")`
+>>     - lessons-learned : `=default(this.yesterday.lessons-learned, "**set yesterday's lessons learned**")`
+>>     - next-plans : `=default(this.yesterday.next-plans, "**set yesterday's next-plans**")`
+>> - last week `=default(this.week.last-week, "")` 
+>>     - sleep-comments : `=default(this.week.last-week.sleep-comments, "**set last week's sleep-comments**")`
+>>     - highlights : `=default(this.week.last-week.highlights, "**set last week's hightlights**")`
+>>     - lessons-learned : `=default(this.week.last-week.lessons-learned, "**set last week's lessons-learned**")`
+>>     - next-plans : `=default(this.week.last-week.next-plans, "**set last week's next-plans**")`
 >> - `=default(link(dateformat(date(this.date-created), "yyyy-MM"), dateformat(date(this.date-created), "MMMM")), "this month")` %% monthly notes are referenced directly from this.date-created, rather than through this.week.month, due to month changes not overlapping with week changes %%
->>     - theme : **`=default(link(dateformat(date(this.date-created), "yyyy-MM")).theme, "*set this month's theme*")`**
->>     - next-plans (from last month) : `=default(link(dateformat(date(this.date-created - dur(1 month)), "yyyy-MM")).next-plans, "*set last month's next-plans*")`
+>>     - theme : `=default(link(dateformat(date(this.date-created), "yyyy-MM")).theme, "**set this month's theme**")`
+>>     - next-plans (from `=default(link(dateformat(date(this.date-created - dur(1 month)), "yyyy-MM")), "last month")`) : `=default(link(dateformat(date(this.date-created - dur(1 month)), "yyyy-MM")).next-plans, "**set last month's next-plans**")`
 >
->> [!reflection]- morning
+>> [!scrollable]- morning
 >> 
 >> ### sleep 
 >> 
@@ -38,9 +38,9 @@ tags:
 >> - awake : `INPUT[dateTime():awake]`
 >>     - sleep duration today : **`=this.awake - this.sleep`** (`=dateformat(this.sleep, "t")` → `=dateformat(this.awake, "t")`) 
 >>
->> `INPUT[textArea(placeholder('sleep comments : observations, patterns and reflections on sleep quality')):sleep-comments]`
+>> `INPUT[textArea(placeholder('sleep comments : observations, patterns and scrollables on sleep quality')):sleep-comments]`
 >>  
->>> [!reflection|fit-content]- sleep log 
+>>> [!scrollable|fit-content]- sleep log 
 >>> ```dataview
 >>> TABLE WITHOUT ID
 >>>     link(file.link, dateformat(file.day, "ccc dd")) AS date,
@@ -71,7 +71,7 @@ tags:
 >> SORT file.day DESC
 >> ```
 >
->> [!reflection]- evening
+>> [!scrollable]- evening
 >>
 >> ### highlights
 >> 

@@ -11,7 +11,7 @@ tags:
 [[Shortcuts widget - meta bind]]
 ```
 
-> [!link|no icon]- `=link(dateformat(this.date-created - dur(1 year), "yyyy"), dateformat(this.date-created - dur(1 year), "◀️ yyyy"))` `BUTTON[periodic-notes-date-switcher]` `= this.file.name + choice(this.aliases, " : **" + this.aliases + "**",  "")` `=link(dateformat(this.date-created + dur(1 year), "yyyy"), dateformat(this.date-created + dur(1 year), "yyyy ▶️"))`
+> [!link|no icon]- `=link(dateformat(this.date-created - dur(1 year), "yyyy"), dateformat(this.date-created - dur(1 year), "◀️ yyyy"))` `BUTTON[periodic-notes-date-switcher]` `=link(this.year, "5️⃣")` `= this.file.name + choice(this.aliases, " : **" + this.aliases + "**",  "")` `=link(dateformat(this.date-created + dur(1 year), "yyyy"), dateformat(this.date-created + dur(1 year), "yyyy ▶️"))`
 > 
 >> [!photo]+ snapshot
 >> 
@@ -28,7 +28,7 @@ tags:
 >> 
 >>> [!image-description] `=choice(this.banner, "![photo|300](" + this.banner + ")" + choice(this.banner-description, this.banner-description, ""), "**paste image URL into banner button below**")`
 >
->> [!reflection]- ### sleep
+>> [!scrollable]- ### sleep
 >>
 >> - insert sleep duration : `INPUT[number(placeholder(sleep duration)):sleep-duration]`
 >> 
@@ -48,7 +48,7 @@ tags:
 >> LIMIT 20
 >> ```
 >
->> [!reflection]- ### gratitude
+>> [!scrollable]- ### gratitude
 >> 
 >> `INPUT[textArea(placeholder('gratitude : what are 3 to 10 things that I am grateful for? what is something that I have never noticed in my immediate environment?')):gratitude]`
 >> 
@@ -63,7 +63,7 @@ tags:
 >> LIMIT 20
 >> ```
 >
->> [!reflection]- ### theme
+>> [!scrollable]- ### theme
 >> 
 >> `INPUT[textArea(placeholder(theme)):theme]`
 >> 
@@ -78,7 +78,7 @@ tags:
 >> LIMIT 20
 >> ```
 >
->> [!reflection]- ### highlights
+>> [!scrollable]- ### highlights
 >> 
 >> - highlights : `INPUT[textArea(placeholder('highlights : key moments? what excited me? how did I move things forward?')):Highlights]`
 >> 
@@ -93,7 +93,7 @@ tags:
 >> LIMIT 20
 >> ```
 >
->> [!reflection]- ### lessons-learned
+>> [!scrollable]- ### lessons-learned
 >> 
 >> `INPUT[textArea(placeholder('lessons learned : insights, mistakes, failures and a functional interpretation')):lessons-learned]`
 >> 
@@ -108,7 +108,7 @@ tags:
 >> LIMIT 20
 >> ```
 >
->> [!reflection]- ### next-plans
+>> [!scrollable]- ### next-plans
 >> 
 >> `INPUT[textArea(placeholder('next-plans : plan the next period, set goals, and any tasks to do')):next-plans]`
 >> 

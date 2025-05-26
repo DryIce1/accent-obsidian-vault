@@ -29,7 +29,7 @@ actions:
   - type: command
     command: templater-obsidian:00 Meta/05 Plugin dependencies/05.1 Templates/Plugin related templates/Reset default sleep-awake values - template.md
   - type: sleep
-    ms: 100
+    ms: 200
   - type: command
     command: workspace:close
   - type: sleep

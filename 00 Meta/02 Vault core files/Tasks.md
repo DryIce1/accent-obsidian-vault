@@ -1,6 +1,5 @@
 ---
-up:
-  - "[[Home]]"
+up: []
 related:
   - https://obsidian-tasks-group.github.io/obsidian-tasks/queries/
 aliases:

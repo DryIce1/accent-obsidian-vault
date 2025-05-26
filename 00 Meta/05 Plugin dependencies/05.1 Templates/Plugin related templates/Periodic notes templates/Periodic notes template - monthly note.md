@@ -14,8 +14,8 @@ const currentMonth = monthMoment.month();
 let weekStart = monthStart.clone().startOf('isoWeek');
 
 while (weekStart.isBefore(monthEnd.clone().add(1, 'day'))) {
-  if (weekStart.month() === currentMonth) {
-    tR += `\n- "[[${weekStart.format("YYYY-[W]WW")}]]"`;
+if (weekStart.clone().add(3, 'days').isBetween(monthStart, monthEnd, null, '[]')) {
+    tR += `\n- "[[${weekStart.format("gggg-[W]WW")}]]"`;
   }
   weekStart.add(1, 'week');
 }

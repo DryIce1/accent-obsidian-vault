@@ -251,8 +251,6 @@ function buildYamlString(metadata) {
 
   // Helper to wrap any string value in double quotes
   function quoted(val) {
-    // For simplicity, use JSON.stringify, which returns a valid JS string literal.
-    // e.g. [[Home]] => "[[Home]]"
     if (typeof val === "string") {
       return JSON.stringify(val);
     }
@@ -277,7 +275,7 @@ function buildYamlString(metadata) {
 }
 
 /******************************************************************************
- * HELPER: RENAME IF UNTITLED AND EMPTY
+ * HELPER: PROMPT USER TO NAME FILE IF IT IS UNTITLED AND EMPTY (e.g. A NEW FILE)
  ******************************************************************************/
 async function renameIfUntitledAndEmpty() {
   try {

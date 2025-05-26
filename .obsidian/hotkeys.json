@@ -786,8 +786,7 @@
   "editor:toggle-blockquote": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Mod"
       ],
       "key": "Q"
     }
@@ -822,7 +821,7 @@
   "quickadd:runQuickAdd": [
     {
       "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "Q"
@@ -1590,7 +1589,6 @@
       "key": "L"
     }
   ],
-  "file-explorer:new-file": [],
   "templater-obsidian:00 Meta/05 Plugin dependencies/05.1 Templates/Note type templates/___global template v2 step 1.md": [
     {
       "modifiers": [
@@ -1774,6 +1772,16 @@
         "Mod"
       ],
       "key": "K"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-current-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
     }
   ]
 }

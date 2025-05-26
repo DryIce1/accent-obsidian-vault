@@ -88,11 +88,12 @@
     },
     {
       "folder": "10 Sources",
-      "image": "https://i.imgur.com/IK14Rr9.png",
+      "image": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg",
       "contentStartPosition": 250,
       "imageDisplay": "cover",
       "imageRepeat": false,
-      "directChildrenOnly": false
+      "directChildrenOnly": false,
+      "yPosition": 0
     },
     {
       "folder": "20 My",
@@ -101,11 +102,12 @@
       "imageDisplay": "cover",
       "imageRepeat": false,
       "directChildrenOnly": false,
-      "bannerHeight": 450
+      "bannerHeight": 350,
+      "yPosition": 0
     },
     {
       "folder": "30 Notes",
-      "image": "https://i.imgur.com/BfN9jFb.jpg",
+      "image": "https://images.pexels.com/photos/3944416/pexels-photo-3944416.jpeg",
       "yPosition": 0,
       "contentStartPosition": 250,
       "imageDisplay": "cover",
@@ -114,23 +116,25 @@
     },
     {
       "folder": "40 Projects",
-      "image": "https://i.imgur.com/nCEEf.jpeg",
+      "image": "https://images.pexels.com/photos/13079522/pexels-photo-13079522.jpeg",
       "imageDisplay": "cover",
       "imageRepeat": false,
       "contentStartPosition": 250,
       "fade": -75,
       "titleColor": "var(--inline-title-color)",
-      "directChildrenOnly": false
+      "directChildrenOnly": false,
+      "yPosition": 0
     },
     {
       "folder": "/",
-      "image": "https://media.timeout.com/images/106006274/1920/1440/image.webp",
+      "image": "https://i.pinimg.com/originals/4a/73/18/4a73186742620ddc29db89c955f14e09.jpg",
       "imageDisplay": "cover",
       "imageRepeat": false,
       "contentStartPosition": 250,
       "fade": -75,
       "titleColor": "var(--inline-title-color)",
-      "directChildrenOnly": false
+      "directChildrenOnly": false,
+      "yPosition": 0
     }
   ],
   "contentStartPosition": 250,
