@@ -16,6 +16,8 @@ summary:
 
 > [!NOTE]+ # Welcome to ***the accent vault...***
 > 
+> ![](https://limewire.com/d/sOAg4#wfKFchCmJx)
+> 
 >> [!CHECK]- ### use the **Global Note Template** to organise your notes
 >> - access the GNT via hotkeys (`alt + F` or `alt + shift + F` if not in an active note) or via the tab bar commander buttons.
 >> - create and organise notes by `type` (recipe, project, book, film, person notes...)
