@@ -3,30 +3,30 @@ up:
   - "[[03 Datascopes (folder note)]]"
 related:
   - "[[Meta bind datascope (archive 2025-02-18-0042)]]"
-aliases: 
-tags: 
-banner: 
+aliases:
+tags:
+banner:
 publish: true
 date-created: 2024-11-05
 cssclasses:
   - dvl-c
   - wide-dataview
-searchBind: 
-typeBind: 
-statusBind: 
-priorityBind: 
-ratingBind: 
-authorBind: 
-limitBind: 
-date-createdBind: 
-dateRangeYearsBind: 
-dateRangeDaysBind: 
+searchBind:
+typeBind:
+statusBind:
+priorityBind:
+ratingBind:
+authorBind:
+limitBind:
+date-createdBind:
+dateRangeYearsBind:
+dateRangeDaysBind:
 urgentBind: false
 importantBind: false
-sortBind: 
-tagBind: 
-folderBind: 
-groupBind: 
+sortBind:
+tagBind:
+folderBind:
+groupBind:
 coverBind: false
 ---
 
@@ -79,7 +79,7 @@ coverBind: false
 >>>> - if `date-createdBind` is set, the default filter range is +/- 90 days.
 >>>> - the date range binding allows one to choose the number of days and/or years to include in the search, in both directions.
 >
->> [!search] select display
+>> [!search]+ select display
 >> 
 >> - Query results **limit** `INPUT[number(placeholder(limit default: 150)):limitBind]`
 >> 

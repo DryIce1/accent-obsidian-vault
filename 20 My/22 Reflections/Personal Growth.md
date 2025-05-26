@@ -14,4 +14,4 @@ area:
   - my
 summary:
 ---
-- [[Personal Growth]]
+- [[Personal Growth]] - update list of links here

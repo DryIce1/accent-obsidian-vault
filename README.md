@@ -49,7 +49,7 @@ summary:
 >>     - [[Unanswered questions - datascope]]
 >>     - [[World events today - datascope]]
 >> - View media and source notes
->>     - [[Meta bind - datascope]]
+>>     - [[Vault explorer - datascope]]
 >>     - [[Books - datascope]]
 >>     - [[Media channels - datascope]]
 >>     - [[Recipes - datascope]]

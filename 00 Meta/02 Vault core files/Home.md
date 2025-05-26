@@ -18,7 +18,7 @@ banner-x:
 ```
 
 > [!Attention]- Active tasks
-> ![[Tasks]]
+> ![[Tasks#^active-tasks]]
 
 > [!check]- Learning
 > ![[Learning areas]]
@@ -32,5 +32,6 @@ banner-x:
 > [!NOTE]- Serendipity 
 > ![[Vault serendipity]]
 
+---
 
 ![[README]]

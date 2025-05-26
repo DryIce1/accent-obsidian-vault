@@ -17,3 +17,4 @@ summary:
 
 - [[Learning areas]]
     - [ ] #task Create some links to [[Learning areas]] ➕ 2025-02-17
+- [[A new learning area]]

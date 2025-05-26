@@ -23,7 +23,7 @@ tags:
 [[Shortcuts widget - meta bind]]
 ```
 
-> [!Attention] Priority 
+> [!Attention] Priority (next task)
 > ```tasks
 > (status.type is TODO) OR (status.name includes In progress)
 > (done today) OR (not done) AND NOT ((done date is invalid) OR (due date is invalid) OR (scheduled date is invalid) OR (start date is invalid)) 
@@ -46,6 +46,8 @@ sort by status.type
 limit 50
 short
 ```
+
+^active-tasks
 
 > [!NOTE]- Group by tag
 > %% tag regex does not match /#.*/i  %%
@@ -76,7 +78,7 @@ short
 > group by happens 
 > show urgency
 > ```
-¢
+
 > [!help]- Task status is *Waiting for* or *In progress* or *Someday*
 > ```tasks 
 > (status.type is IN_PROGRESS) OR (status.name includes someday)

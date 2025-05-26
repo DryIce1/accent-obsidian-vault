@@ -1,14 +1,14 @@
 {
-  "accentColor": "#a38105",
+  "accentColor": "#ed7402",
   "enabledCssSnippets": [
     "Alternative checkboxes - styling and icons (Things theme)",
     "Dracula Gemini - indented-hanging headers",
     "Line threading CSS snippet",
     "Minimal cards view",
-    "accent theme snippet",
-    "MCL Multi Column"
+    "MCL Multi Column",
+    "accent theme snippet"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "",
   "baseFontSize": 16,
   "showViewHeader": true,

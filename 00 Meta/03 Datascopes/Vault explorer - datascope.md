@@ -1,9 +1,8 @@
 ---
 up:
-  - "[[Meta bind embeds (MOC, datascope)]]"
 related:
   - "[[Meta bind datascope - embed]]"
-aliases: 
+aliases: []
 date-created: 2024-10-21
 banner: https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/b/e/behang-van-een-bos-met-lichte-nevel_8.jpg
 banner-y: 120
@@ -11,21 +10,22 @@ cssclasses:
   - wide-dataview
   - dvl-c
 publish: true
-searchBind: 
-authorBind: 
-folderBind: 
-typeBind: 
-statusBind: 
+searchBind:
+authorBind:
+folderBind:
+typeBind:
+statusBind:
+  - done
 urgentBind: false
 importantBind: false
-ratingBind: 
-date-createdBind: 
-dateRangeYearsBind: 
-dateRangeDaysBind: 
-limitBind: 
-sortBind: 
-groupBind: 
-priorityBind: 
+ratingBind:
+date-createdBind:
+dateRangeYearsBind:
+dateRangeDaysBind:
+limitBind:
+sortBind:
+groupBind:
+priorityBind:
 coverBind: false
 type: datascope
 ---
@@ -41,6 +41,8 @@ type: datascope
 # Query
 
 ```dataview
+
+
 TABLE
     WITHOUT ID
     choice(

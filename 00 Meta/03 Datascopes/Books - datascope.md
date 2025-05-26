@@ -2,7 +2,7 @@
 up:
   - "[[Interests]]"
 related:
-  - "[[Meta bind - datascope]]"
+  - "[[Vault explorer - datascope]]"
 aliases:
   - Library - Books & Reading Lists
   - Library (datascope)
@@ -16,7 +16,7 @@ date-created: 2024-10-09
 type:
   - datascope
 publish: true
-statusBind: 
+statusBind:
 ---
 
 ```meta-bind-embed

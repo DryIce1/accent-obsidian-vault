@@ -18,10 +18,10 @@ description: a dream log where the daily note contains `dream` or `dreams` metad
 TABLE 
     WITHOUT ID 
     file.link as Date,
-    default(dream, dreams) AS "dreams"
-FROM
-    #log 
+    default(dream, dreams) AS "dreams" 
 WHERE
+    contains(type, "log") 
+    AND
     dreams OR dream
 SORT file.name desc
 ```
